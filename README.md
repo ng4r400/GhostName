@@ -1,3 +1,3 @@
 # GhostName
-print"Solo Player By GhostName"
-
+# Solo Player By GhostName
+# Newbie Tersakiti
