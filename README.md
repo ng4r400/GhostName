@@ -1,2 +1,3 @@
 # GhostName
-Solo Player By GhostName
+print"Solo Player By GhostName"
+
