@@ -4,6 +4,8 @@ echo "COPYRIGHT : Ghost-Name\n\n";
 
 echo "THANKS BY TEAM : 2E4H & ALL TEAM CYBER TEAM INDONESIA\n\n":
 
+echo "INI ADALAH SPAM CHAT TOKOPEDIA VIA WHATSAPP BUKAN SPAM SMS / TELPON\n\n":
+
 echo "Korban Yang Mau Kamu Hamilin?\nInput : ";
 
 $nomer = trim(fgets(STDIN));
