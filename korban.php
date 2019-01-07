@@ -1,6 +1,8 @@
 <?php
 // Copyright : Mr.Ghost-Name
-function send($phone){
+// THANKS BY TEAM : 2E4H & ALL TEAM CYBER INDONESIA
+// INI ADALAH TOOLS SPAM SMS + TELPON
+function send($phone){
 $config['headers'] = explode("\n",'Host: www.airbnb.co.id
 Connection: keep-alive
 Content-Length: 66
