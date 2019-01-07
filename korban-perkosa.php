@@ -2,7 +2,7 @@
 
 echo "COPYRIGHT : Ghost-Name\n\n";
 
-echo "THANKS BY TEAM : 2EASY4HACK & ALL TEAM CYBER TEAM INDONESIA\n\n":
+echo "THANKS BY TEAM : 2E4H & ALL TEAM CYBER TEAM INDONESIA\n\n":
 
 echo "Korban Yang Mau Kamu Hamilin?\nInput : ";
 
